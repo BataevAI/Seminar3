@@ -20,10 +20,10 @@ Console.WriteLine("необходимо ввести число от 10 000 до
 
 }
 
-Console.WriteLine($"number/10000 {number / 10000} ");
-Console.WriteLine($"number/10 {number % 10} ");
-Console.WriteLine($"number/1000 {(number/1000) % 10} ");
-Console.WriteLine($"number/10000 {(number/10) % 10} ");
+//Console.WriteLine($"number/10000 {number / 10000} ");
+//Console.WriteLine($"number/10 {number % 10} ");
+//Console.WriteLine($"number/1000 {(number/1000) % 10} ");
+//Console.WriteLine($"number/10000 {(number/10) % 10} ");
 
 if (number/10000 == number % 10 && (number/1000) % 10 == (number/10) % 10) {
 Console.WriteLine($"Число {number} является полиндромом");
