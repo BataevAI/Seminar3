@@ -6,5 +6,21 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
 
 */
 
+Console.WriteLine("Введите координаты двух точек в 3-х мерном пространстве, а мы найдем расстояние между ними");
 
+Console.WriteLine("Введите x1");
+int x1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите y1");
+int y1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите z1");
+int z1 = Convert.ToInt32(Console.ReadLine());
 
+Console.WriteLine("Введите x2");
+int x2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите y2");
+int y2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите z2");
+int z2 = Convert.ToInt32(Console.ReadLine());
+
+double rez = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2) + Math.Pow(z1 - z2, 2));
+Console.WriteLine($"расстояние между точками: {Math.Round(rez,2)}");
